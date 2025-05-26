@@ -301,7 +301,7 @@ background-color: #000000
 }
 
 .description {
-  font-family: TT Norms Pro_ExtraBold;
+  font-family: Gilroy_Black;
   text-align: left;
   font-size: 70px;
   margin-bottom: 4px;
@@ -309,7 +309,7 @@ background-color: #000000
 }
 
 .sub-description {
-  font-family: TT Norms Pro_Regular;
+  font-family: Gilroy_Bold;
   text-align: left;
   font-size: 12px;
   margin-bottom: 20px;
@@ -330,7 +330,7 @@ background-color: #000000
 
 .nav-button {
   background-color: none; /* Button color */
-  font-family: TT Norms Pro_Regular;
+  font-family: Gilroy_Medium;
   color: white;
   padding: 4px 20px;
   text-decoration: none;
@@ -380,10 +380,12 @@ background-color: #000000
  @font-face { font-family: Apple_Garamond_LightItalic; src: url('Fonts/Apple_Garamond/AppleGaramond-LightItalic.ttf'); } 
  @font-face { font-family: Apple_Garamond; src: url('Fonts/Apple_Garamond/AppleGaramond.ttf'); } 
  
-  /* TT Norms*/
-  @font-face { font-family: TT Norms Pro_ExtraBold; src: url('Fonts/T_Norms_Pro/TT\ Norms\ Pro\ Compact\ Trial\ ExtraBold.ttf'); } 
-  @font-face { font-family: TT Norms Pro_Regular; src: url('Fonts/T_Norms_Pro/TT\ Norms\ Pro\ Compact\ Trial\ Medium.ttf'); } 
-  @font-face { font-family: TT Norms Pro_Bold; src: url('Fonts/T_Norms_Pro/TT\ Norms\ Pro\ Compact\ Trial\ Bold.ttf'); } 
+    /* Gilroy */
+@font-face { font-family: Gilroy_Regular; src: url('Fonts/Gilroy/Gilroy-Regular.ttf'); } 
+@font-face { font-family: Gilroy_Bold; src: url('Fonts/Gilroy/Gilroy-Bold.ttf'); } 
+@font-face { font-family: Gilroy_Medium; src: url('Fonts/Gilroy/Gilroy-Medium.ttf'); } 
+@font-face { font-family: Gilroy_Black; src: url('Fonts/Gilroy/Gilroy-Black.ttf'); } 
+@font-face { font-family: Gilroy_Light; src: url('Fonts/Gilroy/Gilroy-Light.ttf'); } 
 
  /* Steel Tongs */
  @font-face { font-family: SteelTongs; src: url('SteelTongs.ttf'); } 
